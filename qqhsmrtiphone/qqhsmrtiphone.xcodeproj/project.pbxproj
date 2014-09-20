@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37D84C0D19CDB048003568D8 /* HSMainPageControllerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D84C0B19CDB048003568D8 /* HSMainPageControllerController.m */; };
+		37D84C0E19CDB048003568D8 /* HSMainPageControllerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D84C0C19CDB048003568D8 /* HSMainPageControllerController.xib */; };
+		37D84C1219CDB07E003568D8 /* HSListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D84C1019CDB07E003568D8 /* HSListController.m */; };
+		37D84C1319CDB07E003568D8 /* HSListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D84C1119CDB07E003568D8 /* HSListController.xib */; };
+		37D84C1719CDB09B003568D8 /* HSGeneralPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D84C1519CDB09B003568D8 /* HSGeneralPageController.m */; };
+		37D84C1819CDB09B003568D8 /* HSGeneralPageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D84C1619CDB09B003568D8 /* HSGeneralPageController.xib */; };
+		37D84C1C19CDB0BD003568D8 /* HSArticleDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D84C1A19CDB0BD003568D8 /* HSArticleDetailController.m */; };
+		37D84C1D19CDB0BD003568D8 /* HSArticleDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D84C1B19CDB0BD003568D8 /* HSArticleDetailController.xib */; };
 		FE8C11C919CD72D3004C9194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C11C819CD72D3004C9194 /* main.m */; };
 		FE8C11CC19CD72D3004C9194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C11CB19CD72D3004C9194 /* AppDelegate.m */; };
 		FE8C11CF19CD72D3004C9194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C11CE19CD72D3004C9194 /* ViewController.m */; };
@@ -30,6 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37D84C0A19CDB048003568D8 /* HSMainPageControllerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSMainPageControllerController.h; sourceTree = "<group>"; };
+		37D84C0B19CDB048003568D8 /* HSMainPageControllerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSMainPageControllerController.m; sourceTree = "<group>"; };
+		37D84C0C19CDB048003568D8 /* HSMainPageControllerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSMainPageControllerController.xib; sourceTree = "<group>"; };
+		37D84C0F19CDB07E003568D8 /* HSListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSListController.h; sourceTree = "<group>"; };
+		37D84C1019CDB07E003568D8 /* HSListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSListController.m; sourceTree = "<group>"; };
+		37D84C1119CDB07E003568D8 /* HSListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSListController.xib; sourceTree = "<group>"; };
+		37D84C1419CDB09B003568D8 /* HSGeneralPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGeneralPageController.h; sourceTree = "<group>"; };
+		37D84C1519CDB09B003568D8 /* HSGeneralPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGeneralPageController.m; sourceTree = "<group>"; };
+		37D84C1619CDB09B003568D8 /* HSGeneralPageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSGeneralPageController.xib; sourceTree = "<group>"; };
+		37D84C1919CDB0BD003568D8 /* HSArticleDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSArticleDetailController.h; sourceTree = "<group>"; };
+		37D84C1A19CDB0BD003568D8 /* HSArticleDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSArticleDetailController.m; sourceTree = "<group>"; };
+		37D84C1B19CDB0BD003568D8 /* HSArticleDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSArticleDetailController.xib; sourceTree = "<group>"; };
 		FE8C11C319CD72D3004C9194 /* qqhsmrtiphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qqhsmrtiphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8C11C719CD72D3004C9194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE8C11C819CD72D3004C9194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,6 +118,18 @@
 				FE8C11D319CD72D3004C9194 /* Images.xcassets */,
 				FE8C11D519CD72D3004C9194 /* LaunchScreen.xib */,
 				FE8C11C619CD72D3004C9194 /* Supporting Files */,
+				37D84C0A19CDB048003568D8 /* HSMainPageControllerController.h */,
+				37D84C0B19CDB048003568D8 /* HSMainPageControllerController.m */,
+				37D84C0C19CDB048003568D8 /* HSMainPageControllerController.xib */,
+				37D84C0F19CDB07E003568D8 /* HSListController.h */,
+				37D84C1019CDB07E003568D8 /* HSListController.m */,
+				37D84C1119CDB07E003568D8 /* HSListController.xib */,
+				37D84C1419CDB09B003568D8 /* HSGeneralPageController.h */,
+				37D84C1519CDB09B003568D8 /* HSGeneralPageController.m */,
+				37D84C1619CDB09B003568D8 /* HSGeneralPageController.xib */,
+				37D84C1919CDB0BD003568D8 /* HSArticleDetailController.h */,
+				37D84C1A19CDB0BD003568D8 /* HSArticleDetailController.m */,
+				37D84C1B19CDB0BD003568D8 /* HSArticleDetailController.xib */,
 			);
 			path = qqhsmrtiphone;
 			sourceTree = "<group>";
@@ -220,7 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D84C1319CDB07E003568D8 /* HSListController.xib in Resources */,
+				37D84C1819CDB09B003568D8 /* HSGeneralPageController.xib in Resources */,
+				37D84C0E19CDB048003568D8 /* HSMainPageControllerController.xib in Resources */,
 				FE8C11D219CD72D3004C9194 /* Main.storyboard in Resources */,
+				37D84C1D19CDB0BD003568D8 /* HSArticleDetailController.xib in Resources */,
 				FE8C11F319CD736A004C9194 /* SyTabBar.xib in Resources */,
 				FE8C11D719CD72D3004C9194 /* LaunchScreen.xib in Resources */,
 				FE8C11D419CD72D3004C9194 /* Images.xcassets in Resources */,
@@ -242,10 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8C11CF19CD72D3004C9194 /* ViewController.m in Sources */,
+				37D84C0D19CDB048003568D8 /* HSMainPageControllerController.m in Sources */,
 				FE8C11F419CD736A004C9194 /* SyTabBarItem.m in Sources */,
 				FE8C11F219CD736A004C9194 /* SyTabBar.m in Sources */,
 				FE8C11CC19CD72D3004C9194 /* AppDelegate.m in Sources */,
 				FE8C11C919CD72D3004C9194 /* main.m in Sources */,
+				37D84C1719CDB09B003568D8 /* HSGeneralPageController.m in Sources */,
+				37D84C1C19CDB0BD003568D8 /* HSArticleDetailController.m in Sources */,
+				37D84C1219CDB07E003568D8 /* HSListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
