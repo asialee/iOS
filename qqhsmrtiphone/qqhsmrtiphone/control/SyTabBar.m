@@ -70,7 +70,7 @@
     float itemH = self.frame.size.height;
     //first
     SyTabBarItem *tabItem = [[SyTabBarItem alloc] initWithFrame:CGRectMake(0, topOffset, itemW , itemH)] ;
-    [tabItem setTitle:@"首  页" icon:nil highlight:nil];
+    [tabItem setTitle:@"首页" icon:nil highlight:nil];
     
     [self.tabItems addObject:tabItem];
     [self addSubview:tabItem];
@@ -79,7 +79,7 @@
     
     //second
     tabItem = [[SyTabBarItem alloc] initWithFrame:CGRectMake(itemW + TABBAR_ITEM_SPACING, topOffset, itemW , itemH)];
-    [tabItem setTitle:@"大  陆" icon:nil highlight:nil];
+    [tabItem setTitle:@"大陆" icon:nil highlight:nil];
     [self.tabItems addObject:tabItem];
     [self addSubview:tabItem];
     
@@ -93,7 +93,7 @@
    // tabItem.backgroundColor = [UIColor blackColor];
     //third
     tabItem = [[SyTabBarItem alloc] initWithFrame:CGRectMake((itemW + TABBAR_ITEM_SPACING) * 2, topOffset, itemW , itemH)];
-    [tabItem setTitle:@"港 澳 台" icon:nil highlight:nil];
+    [tabItem setTitle:@"港澳台" icon:nil highlight:nil];
     [self.tabItems addObject:tabItem];
     [self addSubview:tabItem];
    // tabItem.backgroundColor = [UIColor redColor];
@@ -102,14 +102,14 @@
     
     //fourth
     tabItem = [[SyTabBarItem alloc] initWithFrame:CGRectMake((itemW + TABBAR_ITEM_SPACING) * 3, topOffset, itemW , itemH)];
-    [tabItem setTitle:@"海  外" icon:nil highlight:nil];
+    [tabItem setTitle:@"海外" icon:nil highlight:nil];
     [self.tabItems addObject:tabItem];
     [self addSubview:tabItem];
 //tabItem.backgroundColor = [UIColor orangeColor];
     
     //fourth
     tabItem = [[SyTabBarItem alloc] initWithFrame:CGRectMake((itemW + TABBAR_ITEM_SPACING) * 4, topOffset, itemW , itemH)];
-    [tabItem setTitle:@"收  藏" icon:nil highlight:nil];
+    [tabItem setTitle:@"收藏" icon:nil highlight:nil];
     [self.tabItems addObject:tabItem];
     [self addSubview:tabItem];
     //tabItem.backgroundColor = [UIColor orangeColor];
